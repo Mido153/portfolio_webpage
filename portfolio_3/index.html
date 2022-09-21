@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Mido Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <header>
+        <div class="logo">
+            <i class="fa-sharp fa-solid fa-m"></i>
+            <i class="fa-solid fa-i"></i>
+            <i class="fa-solid fa-d"></i>
+            <i class="fa-solid fa-o"></i>
+        </div>
+
+        <nav>
+            <div class="hamb">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-list">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Works">Works</a></li>
+                <li class="btn"><a href="#Contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--  Home section  -->
+    <section id="Home">
+        <div class="container">
+            <div class="hero-text">
+                <h3>Hi, There!</h3>
+                <h1>I Am <span class="input"></span></h1>
+                <p>Web developer & Data Scientist</p>
+
+                <div class="social">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <button type="button">More About Me</button>
+            </div>
+    </section>
+
+    <!--  Home section  -->
+    <section class="about" id="About">
+        <div class="container">
+            <div class="hero-text">
+                <h3>Hello, again!</h3>
+                <h1>I Am <span> Milad Abdo </span></h1>
+                <h3>Web developer & Data Scientist</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, perferendis.
+                    Voluptatem eveniet, in repudiandae accusamus deleniti vero consectetur possimus
+                    tempore architecto reprehenderit facilis! Sequi ea autem in ullam soluta animi.</p>
+
+                <div>
+                    <img src="img/mido.jpg" alt="mido">
+                </div>
+            </div>
+
+    </section>
+
+
+
+
+
+    <!--  services section  -->
+    <section id="Services">
+        <h2 class="title">Services</h2>
+        <hr>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+                <div class="info">
+                    <h3>data science</h3>
+                    <p>identify issues and use data to propose
+                        solutions for effective decision making
+                        using machine learning and Ai</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="info">
+                    <h3>web design</h3>
+                    <p>design & build a professional website for your business.
+                        Quality & Efficient Work.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-palette"></i>
+                </div>
+                <div class="info">
+                    <h3>photoshop</h3>
+                    <p>Create Beautiful Images, Graphics, Paintings,
+                        business cards and posters , banners and so
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end  services section  -->
+
+
+    <div>
+        <a href="https://www.google.com"></a><img src="https://www.google.com.web" alt=""></a>
+    </div>
+
+
+    <!--  footer section  -->
+    <footer class="bottom">
+        <p>&copy;2022 Milad -All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings: ["Milad Abdo.", "Web Designer.", "Data Scientist."],
+            typeSpeed: 70,
+            backSpeed: 60,
+            loop: true
+        });
+
+    </script>
+
+
+</body>
+
+</html>
